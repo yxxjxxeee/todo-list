@@ -1,8 +1,8 @@
 "use strict";
 
 // 모듈
-const express = require("express");
 const dotenv = require("dotenv");
+const express = require("express");
 
 dotenv.config();
 const app = express();
