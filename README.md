@@ -49,4 +49,4 @@ node app.js
 ```
 
 ## 실행 화면
-<img src="./img/test.gif" alt="signup-page" width="500" />
+<img src="./img/test.gif" alt="test-page" width="500" />
