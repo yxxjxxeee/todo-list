@@ -31,7 +31,7 @@ npm install
 ```
 
 3. env 파일 생성 및 설정
-```bash
+```env
 DB_HOST=localhost
 DB_USER=your_username
 DB_PASSWORD=your_password
@@ -48,7 +48,5 @@ mysql -u your_username -p < db/schema.sql
 node app.js
 ```
 
-6. 브라우저에서 접속
-```bash
+6. 브라우저에서 접속<br>
 http://localhost:3000
-```
