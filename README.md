@@ -48,5 +48,5 @@ mysql -u your_username -p < db/schema.sql
 node app.js
 ```
 
-6. 브라우저에서 접속<br>
-http://localhost:3000
+## 실행 화면
+<img src="./img/test.gif" alt="signup-page" width="1000" />
