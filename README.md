@@ -11,7 +11,6 @@ MySQL 데이터베이스를 사용해 할 일 데이터를 저장합니다.
 - MySQL
 - Winston
 
-
 ## 주요 기능
 - 할 일 추가
 - 할 일 수정
@@ -24,12 +23,10 @@ MySQL 데이터베이스를 사용해 할 일 데이터를 저장합니다.
 git clone https://github.com/yxxjxxeee/todo-list.git
 cd todo-list
 ```
-
 2. 의존성 설치
 ```bash
 npm install
 ```
-
 3. env 파일 생성 및 설정
 ```env
 DB_HOST=localhost
@@ -38,7 +35,6 @@ DB_PASSWORD=your_password
 DB_NAME=todo_db
 PORT=3000
 ```
-
 4. MySQL 데이터베이스 및 테이블 생성
 ```bash
 mysql -u your_username -p < db/schema.sql
