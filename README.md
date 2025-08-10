@@ -46,4 +46,4 @@ node app.js
 ```
 
 ### 🖥️ 실행 화면
-<img src="./img/test.gif" alt="test-page" width="400" />
+<img src="./img/test.gif" alt="test-page" width="500" />
