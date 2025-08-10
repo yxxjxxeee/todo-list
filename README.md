@@ -32,7 +32,7 @@ npm install
 DB_HOST=localhost
 DB_USER=your_username
 DB_PASSWORD=your_password
-DB_NAME=todo_db
+DB_NAME=todo
 PORT=3000
 ```
 4. MySQL 데이터베이스 및 테이블 생성
