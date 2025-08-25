@@ -5,7 +5,7 @@ const logger = require("../../config/logger");
 
 const output = {
   home: (req, res) => {
-    logger.info(`GET / 304 "홈 화면으로 이동"`);
+    logger.info(`GET / 200 "홈 화면 렌더링"`);
     res.render("home/index");
   },
 
@@ -24,7 +24,7 @@ const process = {
     const url = {
       method: "POST",
       path: "/add",
-      status: response.err ? 400 : 200
+      status: response.err ? 400 : 201
     }
 
     log(response, url);
